@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GoogleAnalyticsTracker.MVC5</RootNamespace>
     <AssemblyName>GoogleAnalyticsTracker.MVC5</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -88,15 +89,15 @@
     <Compile Include="Tracker.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GoogleAnalyticsTracker.Core\GoogleAnalyticsTracker.Core.csproj">
-      <Project>{e53b5981-6adb-47d3-94ac-130f0b1c3fbb}</Project>
-      <Name>GoogleAnalyticsTracker.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="GoogleAnalyticsTracker.MVC5.nuspec" />
     <None Include="GoogleAnalyticsTracker.snk" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GoogleAnalyticsTracker.Core\GoogleAnalyticsTracker.Core.csproj">
+      <Project>{e668ab34-857a-4c7f-86e6-38466e6068c8}</Project>
+      <Name>GoogleAnalyticsTracker.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

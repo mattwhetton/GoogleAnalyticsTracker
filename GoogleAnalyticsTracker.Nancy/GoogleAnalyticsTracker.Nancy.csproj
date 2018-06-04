@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GoogleAnalyticsTracker.Nancy</RootNamespace>
     <AssemblyName>GoogleAnalyticsTracker.Nancy</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -67,7 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GoogleAnalyticsTracker.Core\GoogleAnalyticsTracker.Core.csproj">
-      <Project>{c9514873-f2e2-48e3-8a9b-e3fd5a0f0892}</Project>
+      <Project>{e668ab34-857a-4c7f-86e6-38466e6068c8}</Project>
       <Name>GoogleAnalyticsTracker.Core</Name>
     </ProjectReference>
   </ItemGroup>
